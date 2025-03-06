@@ -18,7 +18,6 @@ let package = Package(
         // Targets can depend on other targets in this package and products from dependencies.
         .target(
             name: "AdiscopeTarget",
-            dependencies: ["Adiscope"],
             path: "Sources/Adiscope-iOS-SPM-T"
         ),
         .binaryTarget(
