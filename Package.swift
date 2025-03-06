@@ -7,19 +7,11 @@ let package = Package(
     name: "Adiscope",
     platforms: [.iOS(.v12)],
     products: [
-        // Products define the executables and libraries a package produces, making them visible to other packages.
         .library(
             name: "Adiscope",
-            type: .dynamic,
-            targets: ["AdiscopeTarget"]),
+            targets: ["Adiscope"]),
     ],
     targets: [
-        // Targets are the basic building blocks of a package, defining a module or a test suite.
-        // Targets can depend on other targets in this package and products from dependencies.
-        .target(
-            name: "AdiscopeTarget",
-            dependencies: ["Adiscope"]
-        ),
         .binaryTarget(
           name: "Adiscope",
           url: "https://github.com/adiscope/Adiscope-iOS-SPM-Test/releases/download/0.0.6/Adiscope.xcframework.zip",
