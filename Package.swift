@@ -14,7 +14,7 @@ let package = Package(
     targets: [
         .binaryTarget(
           name: "Adiscope",
-          path: "Framework/Adiscope.xcframework"
+          path: "./Framework/Adiscope.xcframework"
         ),
     ]
 )
