@@ -19,7 +19,7 @@ let package = Package(
         .target(
             name: "AdiscopeTarget",
             dependencies: ["Adiscope"],
-            path: "Sources/Adiscope-iOS-SPM"
+            path: "Sources/Adiscope-iOS-SPM-T"
         ),
         .binaryTarget(
           name: "Adiscope",
