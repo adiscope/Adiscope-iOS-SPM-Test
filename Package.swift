@@ -1,4 +1,4 @@
-// swift-tools-version: 6.0
+// swift-tools-version: 5.9
 // The swift-tools-version declares the minimum version of Swift required to build this package.
 
 import PackageDescription
@@ -9,13 +9,32 @@ let package = Package(
     products: [
         .library(
             name: "Adiscope",
-            targets: ["Adiscope"]),
+            targets: ["AdiscopeTarget"]),
     ],
     targets: [
+        .target(
+          name: "AdiscopeTarget",
+          dependencies: [
+            .target(name: "Adiscope"),
+            .target(name: "AdiscopeMediaPangle"),
+            .target(name: "PAGAdSDK"),
+          ],
+          resources: [.copy("PAGAdSDK.bundle")]
+        ),
         .binaryTarget(
           name: "Adiscope",
           url: "https://github.com/adiscope/Adiscope-iOS-Developer/releases/download/2.0.17/Adiscope.xcframework.zip",
           checksum: "87db5fff5a34db747ff980bac344a92ec8483297b9264838ec076eb4bfcf13ee"
+        ),
+        .binaryTarget(
+          name: "AdiscopeMediaPangle",
+          url: "https://github.com/adiscope/Adiscope-iOS-Developer/releases/download/2.0.18/AdiscopeMediaPangle.xcframework.zip",
+          checksum: "2fdfe52f0158913d0d9e49f69daf3bcaf0dafb1b381a791caa3da29436d4f160"
+        ),
+        .binaryTarget(
+          name: "PAGAdSDK",
+          url: "https://github.com/adiscope/Adiscope-iOS-Developer/releases/download/2.0.19/PAGAdSDK.xcframework.zip",
+          checksum: "01c4c0f3a91a059a14f4066e19e8af4ca0eb17b92f0b3fb785ca37dae1527121"
         ),
     ]
 )
