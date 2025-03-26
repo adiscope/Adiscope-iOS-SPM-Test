@@ -11,15 +11,18 @@ let package = Package(
             name: "Adiscope",
             targets: ["AdiscopeTarget"]),
     ],
+    dependencies: [
+        .package(url: "https://github.com/adiscope/Adiscope-iOS-Pangle.git", exact: "0.0.1"),
+    ],
     targets: [
         .target(
           name: "AdiscopeTarget",
           dependencies: [
             .target(name: "Adiscope"),
             .target(name: "AdiscopeMediaPangle"),
-            .target(name: "PAGAdSDK"),
+            .product(name: "AdiscopeWithPangle", package: "Adiscope-iOS-Pangle"),
           ],
-          resources: [.copy("PAGAdSDK.bundle")]
+          path: "Sources"
         ),
         .binaryTarget(
           name: "Adiscope",
@@ -30,11 +33,6 @@ let package = Package(
           name: "AdiscopeMediaPangle",
           url: "https://github.com/adiscope/Adiscope-iOS-Developer/releases/download/2.0.18/AdiscopeMediaPangle.xcframework.zip",
           checksum: "2fdfe52f0158913d0d9e49f69daf3bcaf0dafb1b381a791caa3da29436d4f160"
-        ),
-        .binaryTarget(
-          name: "PAGAdSDK",
-          url: "https://github.com/adiscope/Adiscope-iOS-Developer/releases/download/2.0.19/PAGAdSDK.xcframework.zip",
-          checksum: "01c4c0f3a91a059a14f4066e19e8af4ca0eb17b92f0b3fb785ca37dae1527121"
         ),
     ]
 )
