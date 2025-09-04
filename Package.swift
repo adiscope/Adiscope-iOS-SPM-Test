@@ -14,8 +14,8 @@ let package = Package(
     targets: [
         .binaryTarget(
           name: "Adiscope",
-          url: "https://github.com/adiscope/Adiscope-iOS-Developer/releases/download/2.1.10/Adiscope.zip",
-          checksum: "19c2153b6843781a65e2e97bad1d4fb5700af6106ccbf10820b0db86dbf3ecdb"
+          url: "https://github.com/adiscope/Adiscope-iOS-Developer/releases/download/2.1.11/Adiscope.zip",
+          checksum: "2803d4643ea767da9c77f2f7e78bfed28d457cf0e99beea68c5dfdc966ce1f9f"
         ),
     ]
 )
