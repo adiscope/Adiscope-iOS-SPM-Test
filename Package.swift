@@ -77,222 +77,222 @@ let package = Package(
         ),
         .binaryTarget(
             name: "Adiscope",
-            url: "https://github.com/adiscope/Adiscope-iOS-Developer/releases/download/2.1.14/Adiscope.zip",
-            checksum: "5d12affa4e78eb9ebe9c5f9ef058be95b58f2489dda3293f13388c593bbce7fc"
+            url: "https://github.com/adiscope/Adiscope-iOS-Developer/releases/download/2.1.15/Adiscope.zip",
+            checksum: "4394756871aa396bb59872ede71d7579e68252e14185b1e0fbf054dbc04fc7f9"
         ),
         .binaryTarget(
             name: "AdiscopeMediaAdManager",
-            url: "https://github.com/adiscope/Adiscope-iOS-Developer/releases/download/2.1.14/AdiscopeMediaAdManager.zip",
-            checksum: "63207bf86a2c52ef12682e028f98b3fc3b749f503a5787f3bc27612dd5fbd55b"
+            url: "https://github.com/adiscope/Adiscope-iOS-Developer/releases/download/2.1.15/AdiscopeMediaAdManager.zip",
+            checksum: "22fdbd33d465b5469d7b0b054eaba048f32316beade3ad4d9807f23acc2430ce"
         ),
         .binaryTarget(
             name: "AdiscopeMediaAdMob",
-            url: "https://github.com/adiscope/Adiscope-iOS-Developer/releases/download/2.1.14/AdiscopeMediaAdMob.zip",
-            checksum: "da1ca52729f43e02f91513d3f635c17595aaeba7f16f0007d05d7bfd39fc9b88"
+            url: "https://github.com/adiscope/Adiscope-iOS-Developer/releases/download/2.1.15/AdiscopeMediaAdMob.zip",
+            checksum: "56afb04cd962c544473b1c21f7fec2b9335b1b3a31d66183672ebaca8898b0e4"
         ),
         .binaryTarget(
             name: "AdiscopeMediaChartBoost",
-            url: "https://github.com/adiscope/Adiscope-iOS-Developer/releases/download/2.1.14/AdiscopeMediaChartBoost.zip",
-            checksum: "79a147ba0a7bd9767d97ce844253b3843ebacc446f8643063acfbb2486e00a8f"
+            url: "https://github.com/adiscope/Adiscope-iOS-Developer/releases/download/2.1.15/AdiscopeMediaChartBoost.zip",
+            checksum: "53070b883a348fd056f3222fbc11ec5d9a7ca595072e959c4db98d47ef5547c2"
         ),
         .binaryTarget(
             name: "AdiscopeMediaMax",
-            url: "https://github.com/adiscope/Adiscope-iOS-Developer/releases/download/2.1.14/AdiscopeMediaMax.zip",
-            checksum: "a39e28dc21b695c9a27f5eda840dbfeea900d929eb0f022e44c8039654d4dbb8"
+            url: "https://github.com/adiscope/Adiscope-iOS-Developer/releases/download/2.1.15/AdiscopeMediaMax.zip",
+            checksum: "c0307ea2cca6835e1a3457da6ee9430a0d3b10d7429f5c59d0025f59744ad7dd"
         ),
         .binaryTarget(
             name: "AdiscopeMediaMaxAdapterAdManager",
-            url: "https://github.com/adiscope/Adiscope-iOS-Developer/releases/download/2.1.14/AdiscopeMediaMaxAdapterAdManager.zip",
-            checksum: "ac0f1be01f7532f871a0439ac98d81dac183be0f0048587e46246ba111b8915b"
+            url: "https://github.com/adiscope/Adiscope-iOS-Developer/releases/download/2.1.15/AdiscopeMediaMaxAdapterAdManager.zip",
+            checksum: "fb98957b7f722d8b27c98340d374b2746f38afeabeba6f01331c29af1ddee056"
         ),
         .binaryTarget(
             name: "AdiscopeMediaMaxAdapterAdMob",
-            url: "https://github.com/adiscope/Adiscope-iOS-Developer/releases/download/2.1.14/AdiscopeMediaMaxAdapterAdMob.zip",
-            checksum: "c7a6ddcbaeea49ff1c50ba5a440aaa48aff9de5096326dc09eea588e332e0f12"
+            url: "https://github.com/adiscope/Adiscope-iOS-Developer/releases/download/2.1.15/AdiscopeMediaMaxAdapterAdMob.zip",
+            checksum: "5ec330e0468e2785febebd7b82c8e02f19889c3dbc780b96e6022b26585b770b"
         ),
         .binaryTarget(
             name: "AdiscopeMediaMaxAdapterAmazon",
-            url: "https://github.com/adiscope/Adiscope-iOS-Developer/releases/download/2.1.14/AdiscopeMediaMaxAdapterAmazon.zip",
-            checksum: "cc1a9efd4b8d8b884725f155005a97a462280b2f57535ef2f53d92782aedaa2c"
+            url: "https://github.com/adiscope/Adiscope-iOS-Developer/releases/download/2.1.15/AdiscopeMediaMaxAdapterAmazon.zip",
+            checksum: "bd25f797a30609158d87cbcdd1c79b73d05c47ddec2d757b7d9707b818386851"
         ),
         .binaryTarget(
             name: "AdiscopeMediaMaxAdapterBidMachine",
-            url: "https://github.com/adiscope/Adiscope-iOS-Developer/releases/download/2.1.14/AdiscopeMediaMaxAdapterBidMachine.zip",
-            checksum: "e8a78de96f8a32ae0483b7143dc07f8d54d559b56eeb8f9f1c129fe02c2deba8"
+            url: "https://github.com/adiscope/Adiscope-iOS-Developer/releases/download/2.1.15/AdiscopeMediaMaxAdapterBidMachine.zip",
+            checksum: "7d2c7f53d6160951a7d59eb7f1c339f92001c01934420b7773b560708f2ff09f"
         ),
         .binaryTarget(
             name: "AdiscopeMediaMaxAdapterChartBoost",
-            url: "https://github.com/adiscope/Adiscope-iOS-Developer/releases/download/2.1.14/AdiscopeMediaMaxAdapterChartBoost.zip",
-            checksum: "c9298c3efd009659c4568be51815bb76a52de64db29deb5f3f13a0150eb59334"
+            url: "https://github.com/adiscope/Adiscope-iOS-Developer/releases/download/2.1.15/AdiscopeMediaMaxAdapterChartBoost.zip",
+            checksum: "baf1043aa5419fe7e7ba56a6a30cd5d50d255842568e40324d9fe77685b405dd"
         ),
         .binaryTarget(
             name: "AdiscopeMediaMaxAdapterDTExchange",
-            url: "https://github.com/adiscope/Adiscope-iOS-Developer/releases/download/2.1.14/AdiscopeMediaMaxAdapterDTExchange.zip",
-            checksum: "94a86eb442c954281fcc55b90a0821ec7e5f8c30d9fe15b83fa821d4132e251a"
+            url: "https://github.com/adiscope/Adiscope-iOS-Developer/releases/download/2.1.15/AdiscopeMediaMaxAdapterDTExchange.zip",
+            checksum: "0e49ab97ce1cc812b342ef2c974bbb0eb7d60b24fba84d9ab20b5178f15ac379"
         ),
         .binaryTarget(
             name: "AdiscopeMediaMaxAdapterInMobi",
-            url: "https://github.com/adiscope/Adiscope-iOS-Developer/releases/download/2.1.14/AdiscopeMediaMaxAdapterInMobi.zip",
-            checksum: "ee18578e1f395fbf4558d8b083d7b07881fc8e4e588fe8ff62581eb92866e781"
+            url: "https://github.com/adiscope/Adiscope-iOS-Developer/releases/download/2.1.15/AdiscopeMediaMaxAdapterInMobi.zip",
+            checksum: "93b3110c54483e10bcd6a9f304aff5931c088e11db8c3fb498bd7ede6759acd1"
         ),
         .binaryTarget(
             name: "AdiscopeMediaMaxAdapterIronSource",
-            url: "https://github.com/adiscope/Adiscope-iOS-Developer/releases/download/2.1.14/AdiscopeMediaMaxAdapterIronSource.zip",
-            checksum: "38d0d2010188275e60661391919f09d00971e70b484ed96c49b2410667770496"
+            url: "https://github.com/adiscope/Adiscope-iOS-Developer/releases/download/2.1.15/AdiscopeMediaMaxAdapterIronSource.zip",
+            checksum: "91be357db44b59bd2f5885242a9cd36f7b08f8f494d265d35603b451290d428d"
         ),
         .binaryTarget(
             name: "AdiscopeMediaMaxAdapterMobVista",
-            url: "https://github.com/adiscope/Adiscope-iOS-Developer/releases/download/2.1.14/AdiscopeMediaMaxAdapterMobVista.zip",
-            checksum: "46e90e2438dcc9e04740673871c791e1f3855a01a7cc2aba3b57b913652d76bb"
+            url: "https://github.com/adiscope/Adiscope-iOS-Developer/releases/download/2.1.15/AdiscopeMediaMaxAdapterMobVista.zip",
+            checksum: "f4686254fdfd0fb5e859cef8886aad33beee2edacdb4b48f8dd8c2c252e1787f"
         ),
         .binaryTarget(
             name: "AdiscopeMediaMaxAdapterMoloco",
-            url: "https://github.com/adiscope/Adiscope-iOS-Developer/releases/download/2.1.14/AdiscopeMediaMaxAdapterMoloco.zip",
-            checksum: "7a05cf731d4b6c92c061ef81a8047c96719a3aef4e96250287841d21d2523954"
+            url: "https://github.com/adiscope/Adiscope-iOS-Developer/releases/download/2.1.15/AdiscopeMediaMaxAdapterMoloco.zip",
+            checksum: "b5623ebc205c65b79d40f33df69c9314b321ee487990ab948be0558b145dab94"
         ),
         .binaryTarget(
             name: "AdiscopeMediaMaxAdapterPangle",
-            url: "https://github.com/adiscope/Adiscope-iOS-Developer/releases/download/2.1.14/AdiscopeMediaMaxAdapterPangle.zip",
-            checksum: "c8cc4eb47173aefa2adcae2f85ec9015e75f7c13df65ed05022b0890b1d7e5b6"
+            url: "https://github.com/adiscope/Adiscope-iOS-Developer/releases/download/2.1.15/AdiscopeMediaMaxAdapterPangle.zip",
+            checksum: "fc7eb3a02f1c5dcbb9534de03534d3c46bd30718bfac91dd9d03fcff3815ab44"
         ),
         .binaryTarget(
             name: "AdiscopeMediaMaxAdapterUnityAds",
-            url: "https://github.com/adiscope/Adiscope-iOS-Developer/releases/download/2.1.14/AdiscopeMediaMaxAdapterUnityAds.zip",
-            checksum: "d552be29dcdaec6f121410377ad2d7719026f61a4e08638b3090f782167b82c8"
+            url: "https://github.com/adiscope/Adiscope-iOS-Developer/releases/download/2.1.15/AdiscopeMediaMaxAdapterUnityAds.zip",
+            checksum: "d27bcf2d2e44bdae95f4cd4176a44ef2b4bdbc7e7b830e6249f9b767fb53eba7"
         ),
         .binaryTarget(
             name: "AdiscopeMediaMaxAdapterVungle",
-            url: "https://github.com/adiscope/Adiscope-iOS-Developer/releases/download/2.1.14/AdiscopeMediaMaxAdapterVungle.zip",
-            checksum: "5ad47f2a398f30e4ccae9501a2b8cf8bd01f1959a96ba02836d5f3a7734bb09f"
+            url: "https://github.com/adiscope/Adiscope-iOS-Developer/releases/download/2.1.15/AdiscopeMediaMaxAdapterVungle.zip",
+            checksum: "08f9cd8f301a70520b1934787cb3fdce155031b00e767dfe6e91e7f08a7c11ec"
         ),
         .binaryTarget(
             name: "AdiscopeMediaPangle",
-            url: "https://github.com/adiscope/Adiscope-iOS-Developer/releases/download/2.1.14/AdiscopeMediaPangle.zip",
-            checksum: "21268a447b798c19f8048343cfc24a04da87886f9b9fb9fc3ebc32c6b1972224"
+            url: "https://github.com/adiscope/Adiscope-iOS-Developer/releases/download/2.1.15/AdiscopeMediaPangle.zip",
+            checksum: "668d7b95d436ee46b83607443427e559903099f2fe80defb9081d3af57a8689b"
         ),
         .binaryTarget(
             name: "AdiscopeMediaVungle",
-            url: "https://github.com/adiscope/Adiscope-iOS-Developer/releases/download/2.1.14/AdiscopeMediaVungle.zip",
-            checksum: "3b709475d1a536d9d06be56cf11c29040e1759ec2cd2be0399c11941c2201217"
+            url: "https://github.com/adiscope/Adiscope-iOS-Developer/releases/download/2.1.15/AdiscopeMediaVungle.zip",
+            checksum: "6ba079844f6d4eda5dde5280280b6488d636dccf47954acc64fd21d5d9bfee3e"
         ),
         .binaryTarget(
             name: "AdiscopeMediaMaxAdapterBidMachineMediationAdapter",
-            url: "https://github.com/adiscope/Adiscope-iOS-Developer/releases/download/2.1.14/AppLovinMediationBidMachineAdapter.xcframework.zip",
+            url: "https://github.com/adiscope/Adiscope-iOS-Developer/releases/download/2.1.15/AppLovinMediationBidMachineAdapter.xcframework.zip",
             checksum: "f82815c9436046cde585c5dbba1a0fc35589ffaeb82d318d8c152b77f6bcbe07"
         ),
         .binaryTarget(
             name: "AdiscopeMediaMaxAdapterPangleMediationAdapter",
-            url: "https://github.com/adiscope/Adiscope-iOS-Developer/releases/download/2.1.14/AppLovinMediationByteDanceAdapter.xcframework.zip",
+            url: "https://github.com/adiscope/Adiscope-iOS-Developer/releases/download/2.1.15/AppLovinMediationByteDanceAdapter.xcframework.zip",
             checksum: "ed808976a715f4de59c6cbcb5e1fc9ae742f9c60e382220425f854ab5ff7e815"
         ),
         .binaryTarget(
             name: "AdiscopeMediaMaxAdapterChartboostMediationAdapter",
-            url: "https://github.com/adiscope/Adiscope-iOS-Developer/releases/download/2.1.14/AppLovinMediationChartboostAdapter.xcframework.zip",
+            url: "https://github.com/adiscope/Adiscope-iOS-Developer/releases/download/2.1.15/AppLovinMediationChartboostAdapter.xcframework.zip",
             checksum: "994fc03fc42197c03b0b0ad145abc50d75a1d76910661fc788859c75b4ab2e33"
         ),
         .binaryTarget(
             name: "AdiscopeMediaMaxAdapterAdManagerMediationAdapter",
-            url: "https://github.com/adiscope/Adiscope-iOS-Developer/releases/download/2.1.14/AppLovinMediationGoogleAdManagerAdapter.xcframework.zip",
+            url: "https://github.com/adiscope/Adiscope-iOS-Developer/releases/download/2.1.15/AppLovinMediationGoogleAdManagerAdapter.xcframework.zip",
             checksum: "02abe018304afd0b7254021fa6d6b26d53e97e1644c0000aa61c88824b9a5607"
         ),
         .binaryTarget(
             name: "AdiscopeMediaMaxAdapterAdMobMediationAdapter",
-            url: "https://github.com/adiscope/Adiscope-iOS-Developer/releases/download/2.1.14/AppLovinMediationGoogleAdapter.xcframework.zip",
+            url: "https://github.com/adiscope/Adiscope-iOS-Developer/releases/download/2.1.15/AppLovinMediationGoogleAdapter.xcframework.zip",
             checksum: "44905049b27315151b5fc0b249a91a64a8e17c7a3c9fb33ca25bddf3811374f6"
         ),
         .binaryTarget(
             name: "AdiscopeMediaMaxAdapterIronSourceMediationAdapter",
-            url: "https://github.com/adiscope/Adiscope-iOS-Developer/releases/download/2.1.14/AppLovinMediationIronSourceAdapter.xcframework.zip",
+            url: "https://github.com/adiscope/Adiscope-iOS-Developer/releases/download/2.1.15/AppLovinMediationIronSourceAdapter.xcframework.zip",
             checksum: "eb9038af9fcb5d50aa27a456b3ecc1fb448439f6a31f958682be4cf92b418897"
         ),
         .binaryTarget(
             name: "AdiscopeMediaMaxAdapterMolocoMediationAdapter",
-            url: "https://github.com/adiscope/Adiscope-iOS-Developer/releases/download/2.1.14/AppLovinMediationMolocoAdapter.xcframework.zip",
+            url: "https://github.com/adiscope/Adiscope-iOS-Developer/releases/download/2.1.15/AppLovinMediationMolocoAdapter.xcframework.zip",
             checksum: "e39f0e30476fc93c8e32fa661b358ea040b5e6243c51f0153c8c68515a89c814"
         ),
         .binaryTarget(
             name: "AdiscopeMediaMaxAdapterUnityAdsMediationAdapter",
-            url: "https://github.com/adiscope/Adiscope-iOS-Developer/releases/download/2.1.14/AppLovinMediationUnityAdsAdapter.xcframework.zip",
+            url: "https://github.com/adiscope/Adiscope-iOS-Developer/releases/download/2.1.15/AppLovinMediationUnityAdsAdapter.xcframework.zip",
             checksum: "8e74476445da4acd91a7d77ce510758a5490b81802e8ce9168ec8b495d7daeac"
         ),
         .binaryTarget(
             name: "AdiscopeMediaMaxAdapterVungleMediationAdapter",
-            url: "https://github.com/adiscope/Adiscope-iOS-Developer/releases/download/2.1.14/AppLovinMediationVungleAdapter.xcframework.zip",
+            url: "https://github.com/adiscope/Adiscope-iOS-Developer/releases/download/2.1.15/AppLovinMediationVungleAdapter.xcframework.zip",
             checksum: "f0772c700a002c9680055e81c0c2e20c5e9cee0e6e7b2dd04b870c41b03c0c93"
         ),
         .binaryTarget(
             name: "BidMachine",
-            url: "https://github.com/adiscope/Adiscope-iOS-Developer/releases/download/2.1.14/BidMachine.xcframework.zip",
+            url: "https://github.com/adiscope/Adiscope-iOS-Developer/releases/download/2.1.15/BidMachine.xcframework.zip",
             checksum: "ab0b36a701a4ddb8c4fd5cb3ebc466a04914e2b822bb8e3abc0b64aefb97bd7c"
         ),
         .binaryTarget(
             name: "ChartBoost",
-            url: "https://github.com/adiscope/Adiscope-iOS-Developer/releases/download/2.1.14/ChartboostSDK.xcframework.zip",
+            url: "https://github.com/adiscope/Adiscope-iOS-Developer/releases/download/2.1.15/ChartboostSDK.xcframework.zip",
             checksum: "a68ac9cecf17275fe9db291c3bda45efcb2af1004efed3504aa51777c1ef2d82"
         ),
         .binaryTarget(
             name: "DTBiOSSDK",
-            url: "https://github.com/adiscope/Adiscope-iOS-Developer/releases/download/2.1.14/DTBiOSSDK.xcframework.zip",
+            url: "https://github.com/adiscope/Adiscope-iOS-Developer/releases/download/2.1.15/DTBiOSSDK.xcframework.zip",
             checksum: "0c35b0749446d2a4bc2b6be9794399fcaa2b04bd19216a6be2740909b88a01d6"
         ),
         .binaryTarget(
             name: "IASDKCore",
-            url: "https://github.com/adiscope/Adiscope-iOS-Developer/releases/download/2.1.14/IASDKCore.xcframework.zip",
+            url: "https://github.com/adiscope/Adiscope-iOS-Developer/releases/download/2.1.15/IASDKCore.xcframework.zip",
             checksum: "760daf098fb81df49f731c9ca54b95232700da4725f82a83263a60f1512acedd"
         ),
         .binaryTarget(
             name: "InMobiSDK",
-            url: "https://github.com/adiscope/Adiscope-iOS-Developer/releases/download/2.1.14/InMobiSDK.xcframework.zip",
+            url: "https://github.com/adiscope/Adiscope-iOS-Developer/releases/download/2.1.15/InMobiSDK.xcframework.zip",
             checksum: "dbe9c0ba89d272e1e0e1dbf0a5a4d5b9974dc048efc128da97216beb76d4898a"
         ),
         .binaryTarget(
             name: "IronSource",
-            url: "https://github.com/adiscope/Adiscope-iOS-Developer/releases/download/2.1.14/IronSource.xcframework.zip",
+            url: "https://github.com/adiscope/Adiscope-iOS-Developer/releases/download/2.1.15/IronSource.xcframework.zip",
             checksum: "985cf2a34bf6963b4f05a44ef0eec33299a90cf203ee876c039790930b529ba0"
         ),
         .binaryTarget(
             name: "LiftoffMonetizeAdapter",
-            url: "https://github.com/adiscope/Adiscope-iOS-Developer/releases/download/2.1.14/LiftoffMonetizeAdapter.xcframework.zip",
+            url: "https://github.com/adiscope/Adiscope-iOS-Developer/releases/download/2.1.15/LiftoffMonetizeAdapter.xcframework.zip",
             checksum: "506eb7f8176555851620a6bf033a07bfa8ec90f7cdad3f9f8c7273d0a21930a7"
         ),
         .binaryTarget(
             name: "MintegralAdapter",
-            url: "https://github.com/adiscope/Adiscope-iOS-Developer/releases/download/2.1.14/MintegralAdapter.xcframework.zip",
+            url: "https://github.com/adiscope/Adiscope-iOS-Developer/releases/download/2.1.15/MintegralAdapter.xcframework.zip",
             checksum: "fc778d7b4e9fa3435d6241c8eacd30dde71aa07cd5df295839740616c335ed56"
         ),
         .binaryTarget(
             name: "MolocoSDK",
-            url: "https://github.com/adiscope/Adiscope-iOS-Developer/releases/download/2.1.14/MolocoSDK.xcframework.zip",
+            url: "https://github.com/adiscope/Adiscope-iOS-Developer/releases/download/2.1.15/MolocoSDK.xcframework.zip",
             checksum: "08d83dd34b74a843aeaf9bef832e87ff3411ac8ed831e780b94eb6c9e7c7383b"
         ),
         .binaryTarget(
             name: "OMSDK_Appodeal",
-            url: "https://github.com/adiscope/Adiscope-iOS-Developer/releases/download/2.1.14/OMSDK_Appodeal.xcframework.zip",
+            url: "https://github.com/adiscope/Adiscope-iOS-Developer/releases/download/2.1.15/OMSDK_Appodeal.xcframework.zip",
             checksum: "4d5e48327b5a6ffcf45338eaa4287932fbcac8e174c8de711efd4da2a92599af"
         ),
         .binaryTarget(
             name: "PangleAdapter",
-            url: "https://github.com/adiscope/Adiscope-iOS-Developer/releases/download/2.1.14/PangleAdapter.xcframework.zip",
+            url: "https://github.com/adiscope/Adiscope-iOS-Developer/releases/download/2.1.15/PangleAdapter.xcframework.zip",
             checksum: "e907a0197e6fc4cbd0058ec81fa10a0d0b85e3b5b795d09e452fa9856af8c0bc"
         ),
         .binaryTarget(
             name: "StackModules",
-            url: "https://github.com/adiscope/Adiscope-iOS-Developer/releases/download/2.1.14/StackModules.xcframework.zip",
+            url: "https://github.com/adiscope/Adiscope-iOS-Developer/releases/download/2.1.15/StackModules.xcframework.zip",
             checksum: "72d04b5b56258cdaed19a0869d5fc94761bd477bee0efff7f4d9f06fa3bf1f46"
         ),
         .binaryTarget(
             name: "StackProductPresentation",
-            url: "https://github.com/adiscope/Adiscope-iOS-Developer/releases/download/2.1.14/StackProductPresentation.xcframework.zip",
+            url: "https://github.com/adiscope/Adiscope-iOS-Developer/releases/download/2.1.15/StackProductPresentation.xcframework.zip",
             checksum: "d67be2219ea88ab9f541462e48c6b2265404b4e04f4f8440361bd3deec6101a0"
         ),
         .binaryTarget(
             name: "StackRendering",
-            url: "https://github.com/adiscope/Adiscope-iOS-Developer/releases/download/2.1.14/StackRendering.xcframework.zip",
+            url: "https://github.com/adiscope/Adiscope-iOS-Developer/releases/download/2.1.15/StackRendering.xcframework.zip",
             checksum: "40b512f7e53b9894297b43940f650a7da31211750108c296c233c1ff99274785"
         ),
         .binaryTarget(
             name: "UnityAds",
-            url: "https://github.com/adiscope/Adiscope-iOS-Developer/releases/download/2.1.14/UnityAds.xcframework.zip",
+            url: "https://github.com/adiscope/Adiscope-iOS-Developer/releases/download/2.1.15/UnityAds.xcframework.zip",
             checksum: "673f154e0f1f8284e2e0e71f8d260d00933aebcf2167b3f20b8733fd2c0b830b"
         ),
         .binaryTarget(
