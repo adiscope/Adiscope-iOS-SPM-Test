@@ -170,7 +170,7 @@ let package = Package(
         .binaryTarget(
             name: "BidMachine",
             url: "https://github.com/adiscope/Adiscope-iOS-Sample/releases/download/4.4.1/BidMachine.xcframework.zip",
-            checksum: "c4cedc48be5f1ff7ae8d2a6294b9c2908b35149710f83582419a34bffb063894"
+            checksum: "f3ce00b421532bf8047eda122cdc6eba21ca7ca6fcaeff1cdd02afe1953ed128"
         ),
         .binaryTarget(
             name: "DTBiOSSDK",
