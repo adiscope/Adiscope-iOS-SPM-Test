@@ -77,8 +77,8 @@ let package = Package(
         ),
         .binaryTarget(
             name: "Adiscope",
-            url: "https://github.com/adiscope/Adiscope-iOS-Developer/releases/download/2.1.19/Adiscope.zip",
-            checksum: "af8eafb6a92799fc8946d18c928000df6d411fc75c9fe1f5659eaca1cc06ff3a"
+            url: "https://github.com/adiscope/Adiscope-iOS-Developer/releases/download/2.1.20/Adiscope.zip",
+            checksum: "ab23a816a4c4c12091fa0dd6c2ff9a7e4c1912eaa227f34729365b6a2b769a08"
         ),
         .binaryTarget(
             name: "AdiscopeMediaAdManager",
