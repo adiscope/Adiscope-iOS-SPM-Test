@@ -14,8 +14,8 @@
       "kind" : "remoteSourceControl",
       "location" : "https://github.com/AppLovin/AppLovin-MAX-Swift-Package.git",
       "state" : {
-        "revision" : "c184b428415a05dcad488c6834e0bd02fe1d8f3e",
-        "version" : "13.3.1"
+        "revision" : "7d1f730673c437b83fba3eec2dee2dcc6ed46c8a",
+        "version" : "13.4.0"
       }
     },
     {
