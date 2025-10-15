@@ -42,6 +42,7 @@ let package = Package(
                 .target(name: "AdiscopeMediaMaxAdapterVungle"),
                 .target(name: "AdiscopeMediaPangle"),
                 .target(name: "AdiscopeMediaVungle"),
+                .target(name: "AppLovinMediationAmazonAdMarketplaceAdapter"),
                 .target(name: "AdiscopeMediaMaxAdapterBidMachineMediationAdapter"),
                 .target(name: "AdiscopeMediaMaxAdapterPangleMediationAdapter"),
                 .target(name: "AdiscopeMediaMaxAdapterChartboostMediationAdapter"),
