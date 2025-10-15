@@ -61,6 +61,7 @@ let package = Package(
                 .target(name: "BidMachine"),
                 .target(name: "ChartBoost"),
                 .target(name: "DTBiOSSDK"),
+                .target(name: "Facebook"),
                 .target(name: "IASDKCore"),
                 .target(name: "InMobiSDK"),
                 .target(name: "IronSource"),
@@ -245,6 +246,11 @@ let package = Package(
             name: "DTBiOSSDK",
             url: "https://github.com/adiscope/Adiscope-iOS-Developer/releases/download/2.1.18/DTBiOSSDK.xcframework.zip",
             checksum: "cbd1e58f91935cc9045f8cf48fb6e2864c5b4bebd2b3c71c34339f51cd41f193"
+        ),
+        .binaryTarget(
+            name: "Facebook",
+            url: "https://github.com/adiscope/Adiscope-iOS-Developer/releases/download/2.1.18/FBAudienceNetwork.xcframework.zip",
+            checksum: "dee658acdb07bd64e3a0c375611f4d721fe64c131234ef74a609c6875f013d3c"
         ),
         .binaryTarget(
             name: "IASDKCore",
