@@ -33,6 +33,7 @@ let package = Package(
                 .target(name: "AdiscopeMediaMaxAdapterBidMachine"),
                 .target(name: "AdiscopeMediaMaxAdapterChartBoost"),
                 .target(name: "AdiscopeMediaMaxAdapterDTExchange"),
+                .target(name: "AdiscopeMediaMaxAdapterFan"),
                 .target(name: "AdiscopeMediaMaxAdapterInMobi"),
                 .target(name: "AdiscopeMediaMaxAdapterIronSource"),
                 .target(name: "AdiscopeMediaMaxAdapterMobVista"),
@@ -42,7 +43,7 @@ let package = Package(
                 .target(name: "AdiscopeMediaMaxAdapterVungle"),
                 .target(name: "AdiscopeMediaPangle"),
                 .target(name: "AdiscopeMediaVungle"),
-                .target(name: "AppLovinMediationAmazonAdMarketplaceAdapter"),
+                .target(name: "AdiscopeMediaMaxAdapterAmazonMediationAdapter"),
                 .target(name: "AdiscopeMediaMaxAdapterBidMachineMediationAdapter"),
                 .target(name: "AdiscopeMediaMaxAdapterPangleMediationAdapter"),
                 .target(name: "AdiscopeMediaMaxAdapterChartboostMediationAdapter"),
@@ -131,6 +132,11 @@ let package = Package(
             checksum: "1c78a0425691e81166a832399a9f47cb9d0ab2da9a669dfd27a88feb81786823"
         ),
         .binaryTarget(
+            name: "AdiscopeMediaMaxAdapterFan",
+            url: "https://github.com/adiscope/Adiscope-iOS-Developer/releases/download/2.1.18/AdiscopeMediaMaxAdapterFan.zip",
+            checksum: "04f587987c43c9229eb70188a6a88811942674ab732a5eb175bcd6925db00c47"
+        ),
+        .binaryTarget(
             name: "AdiscopeMediaMaxAdapterInMobi",
             url: "https://github.com/adiscope/Adiscope-iOS-Developer/releases/download/2.1.18/AdiscopeMediaMaxAdapterInMobi.zip",
             checksum: "c88be04a08149e0c011cc1a2882bc05813266db7a9eaa56030e6c5045a612dd0"
@@ -176,7 +182,7 @@ let package = Package(
             checksum: "984f4b4c470d3dfa30363f41d3ce5ad0958e4780475656f7640e39884dbb88c4"
         ),
         .binaryTarget(
-            name: "AppLovinMediationAmazonAdMarketplaceAdapter",
+            name: "AdiscopeMediaMaxAdapterAmazonMediationAdapter",
             url: "https://github.com/adiscope/Adiscope-iOS-Developer/releases/download/2.1.18/AppLovinMediationAmazonAdMarketplaceAdapter.xcframework.zip",
             checksum: "03978a302660050771ef9a31ec6c31c8259d81b5aff1836a01003493d0124e3f"
         ),
