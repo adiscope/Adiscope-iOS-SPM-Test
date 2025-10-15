@@ -38,6 +38,7 @@ let package = Package(
                 .target(name: "AdiscopeMediaMaxAdapterIronSource"),
                 .target(name: "AdiscopeMediaMaxAdapterMobVista"),
                 .target(name: "AdiscopeMediaMaxAdapterMoloco"),
+                .target(name: "AdiscopeMediaMaxAdapterOgury"),
                 .target(name: "AdiscopeMediaMaxAdapterPangle"),
                 .target(name: "AdiscopeMediaMaxAdapterUnityAds"),
                 .target(name: "AdiscopeMediaMaxAdapterVungle"),
@@ -51,6 +52,7 @@ let package = Package(
                 .target(name: "AdiscopeMediaMaxAdapterAdMobMediationAdapter"),
                 .target(name: "AdiscopeMediaMaxAdapterIronSourceMediationAdapter"),
                 .target(name: "AdiscopeMediaMaxAdapterMolocoMediationAdapter"),
+                .target(name: "AdiscopeMediaMaxAdapterOguryMediationAdapter"),
                 .target(name: "AdiscopeMediaMaxAdapterUnityAdsMediationAdapter"),
                 .target(name: "AdiscopeMediaMaxAdapterVungleMediationAdapter"),
                 .product(name: "GoogleMobileAds", package: "swift-package-manager-google-mobile-ads"),
@@ -68,7 +70,11 @@ let package = Package(
                 .target(name: "LiftoffMonetizeAdapter"),
                 .target(name: "MintegralAdapter"),
                 .target(name: "MolocoSDK"),
+                .target(name: "OguryAds"),
+                .target(name: "OguryCore"),
+                .target(name: "OgurySdk"),
                 .target(name: "OMSDK_Appodeal"),
+                .target(name: "OMSDK_Ogury"),
                 .target(name: "PangleAdapter"),
                 .target(name: "StackModules"),
                 .target(name: "StackProductPresentation"),
@@ -158,6 +164,11 @@ let package = Package(
             checksum: "21cc13e042264ee157e8ed9a1159dae7a28977af4dcb50645c66214823088886"
         ),
         .binaryTarget(
+            name: "AdiscopeMediaMaxAdapterOgury",
+            url: "https://github.com/adiscope/Adiscope-iOS-Developer/releases/download/2.1.18/AdiscopeMediaMaxAdapterOgury.zip",
+            checksum: "2edf86246852925be48b334f1fddedf1d3e4f29b68fc8ec8f1d4a95cc313ed09"
+        ),
+        .binaryTarget(
             name: "AdiscopeMediaMaxAdapterPangle",
             url: "https://github.com/adiscope/Adiscope-iOS-Developer/releases/download/2.1.18/AdiscopeMediaMaxAdapterPangle.zip",
             checksum: "01823c01aff99c0b2e354c5739f1b60a4458b8ba160fa7bca8a0641ead469cb4"
@@ -223,6 +234,11 @@ let package = Package(
             checksum: "411507ea89e5abb59e19b2b1573a086097454113c84f1c8e37026b250c166351"
         ),
         .binaryTarget(
+            name: "AdiscopeMediaMaxAdapterOguryMediationAdapter",
+            url: "https://github.com/adiscope/Adiscope-iOS-Developer/releases/download/2.1.18/AppLovinMediationOguryPresageAdapter.xcframework.zip",
+            checksum: "10d6783cc669fc7899bc0210595b1721beb0d6767504f163cb66f67ecc1a6b4a"
+        ),
+        .binaryTarget(
             name: "AdiscopeMediaMaxAdapterUnityAdsMediationAdapter",
             url: "https://github.com/adiscope/Adiscope-iOS-Developer/releases/download/2.1.18/AppLovinMediationUnityAdsAdapter.xcframework.zip",
             checksum: "ff56c690e7f78080403a7c5e23754d25507245d71b25e0dede5a00d03fec9e67"
@@ -283,9 +299,29 @@ let package = Package(
             checksum: "85d690dc4bc4c6bae3bbbae1a0d8b929019aeaf2db60b018bd0c3b26072e9974"
         ),
         .binaryTarget(
+            name: "OguryAds",
+            url: "https://github.com/adiscope/Adiscope-iOS-Developer/releases/download/2.1.18/OguryAds.xcframework.zip",
+            checksum: "4eae05e71d27b0cf108e69802cbf476a72362fbeec9e55e54a78502912549564"
+        ),
+        .binaryTarget(
+            name: "OguryCore",
+            url: "https://github.com/adiscope/Adiscope-iOS-Developer/releases/download/2.1.18/OguryCore.xcframework.zip",
+            checksum: "319c93958dc67cdb9c89071bee6fc4ff65b2d6f54cf7d28e86778ea2f4e3cf62"
+        ),
+        .binaryTarget(
+            name: "OgurySdk",
+            url: "https://github.com/adiscope/Adiscope-iOS-Developer/releases/download/2.1.18/OgurySdk.xcframework.zip",
+            checksum: "35fe9b80ea0954b61cdc0f106bc4f2c4c97c942380ccb5ff4d8bcf7013a394a7"
+        ),
+        .binaryTarget(
             name: "OMSDK_Appodeal",
             url: "https://github.com/adiscope/Adiscope-iOS-Developer/releases/download/2.1.18/OMSDK_Appodeal.xcframework.zip",
             checksum: "b560c3b942a515806b067a226db3f7507e6fab0b92e3d23607acdddd94b6419d"
+        ),
+        .binaryTarget(
+            name: "OMSDK_Ogury",
+            url: "https://github.com/adiscope/Adiscope-iOS-Developer/releases/download/2.1.18/OMSDK_Ogury.xcframework.zip",
+            checksum: "d1bfc1ca231b3dcf8156fb66b708bd2956c4c807931601edd81acde7ef224aed"
         ),
         .binaryTarget(
             name: "PangleAdapter",
