@@ -201,17 +201,17 @@ let package = Package(
         .binaryTarget(
             name: "AdiscopeMediaMaxAdapterBidMachineMediationAdapter",
             url: "https://github.com/adiscope/Adiscope-iOS-Sample/releases/download/5.0.0/AppLovinMediationBidMachineAdapter.xcframework.zip",
-            checksum: "b63c24ecdda4e014727683436f8672c457afbe1b72185491f97fb97b130cf2c7"
+            checksum: "5d44e014fcb6a2d6fe539346fd88b3f3747fb75fe523910284dcbcad6c2967b5"
         ),
         .binaryTarget(
             name: "AdiscopeMediaMaxAdapterPangleMediationAdapter",
             url: "https://github.com/adiscope/Adiscope-iOS-Sample/releases/download/5.0.0/AppLovinMediationByteDanceAdapter.xcframework.zip",
-            checksum: "bc75fa474314ed166aea9bfcc118d3abcdce4da24d213161eae97393a9f5c8a6"
+            checksum: "d21dbfe23051d18b4416c1fd79ef689d9e81826d598bd8ac16faeb89271e9b51"
         ),
         .binaryTarget(
             name: "AdiscopeMediaMaxAdapterChartboostMediationAdapter",
             url: "https://github.com/adiscope/Adiscope-iOS-Sample/releases/download/5.0.0/AppLovinMediationChartboostAdapter.xcframework.zip",
-            checksum: "5517e9b527fe1d33e4ba7303319a09804b1245f1311c81e609df9a6daaa39010"
+            checksum: "5b836d3b80983749e60963a3bf0e2ee856865e376bb03e9b9bf1fac9e828f300"
         ),
         .binaryTarget(
             name: "AdiscopeMediaMaxAdapterAdMobMediationAdapter",
@@ -231,7 +231,7 @@ let package = Package(
         .binaryTarget(
             name: "AdiscopeMediaMaxAdapterMolocoMediationAdapter",
             url: "https://github.com/adiscope/Adiscope-iOS-Sample/releases/download/5.0.0/AppLovinMediationMolocoAdapter.xcframework.zip",
-            checksum: "411507ea89e5abb59e19b2b1573a086097454113c84f1c8e37026b250c166351"
+            checksum: "fcd3a1119f5a5ce01e00a50e6ea774cf0576280f780a6a1df3d4baa4dbae9ba8"
         ),
         .binaryTarget(
             name: "AdiscopeMediaMaxAdapterOguryMediationAdapter",
@@ -241,12 +241,12 @@ let package = Package(
         .binaryTarget(
             name: "AdiscopeMediaMaxAdapterUnityAdsMediationAdapter",
             url: "https://github.com/adiscope/Adiscope-iOS-Sample/releases/download/5.0.0/AppLovinMediationUnityAdsAdapter.xcframework.zip",
-            checksum: "ff56c690e7f78080403a7c5e23754d25507245d71b25e0dede5a00d03fec9e67"
+            checksum: "17ba0692490b085dd2718c7965298c16116f1019fcce79a48f13aa573088b10f"
         ),
         .binaryTarget(
             name: "AdiscopeMediaMaxAdapterVungleMediationAdapter",
             url: "https://github.com/adiscope/Adiscope-iOS-Sample/releases/download/5.0.0/AppLovinMediationVungleAdapter.xcframework.zip",
-            checksum: "db857f31a04693033c61d8e202b62c5f3c7a0976e9a1f24b45053820e974f532"
+            checksum: "67d0931047c54329b4b7a0c22bae90453f9fee200455c179f78cf7387d0c962b"
         ),
         .binaryTarget(
             name: "BidMachine",
