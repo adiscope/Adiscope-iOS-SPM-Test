@@ -80,6 +80,7 @@ let package = Package(
                 .target(name: "StackProductPresentation"),
                 .target(name: "StackRendering"),
                 .target(name: "UnityAds"),
+                .target(name: "TnkRwdSdk2"),
             ],
             path: "Sources"
         ),
@@ -347,6 +348,11 @@ let package = Package(
             name: "UnityAds",
             url: "https://github.com/adiscope/Adiscope-iOS-Sample/releases/download/5.0.0/UnityAds.xcframework.zip",
             checksum: "554126a255ced9fc0636b62be115e61fe1d11aae9fa87b0c68433abaf8b09d6d"
+        ),
+        .binaryTarget(
+            name: "TnkRwdSdk2",
+            url: "https://github.com/adiscope/Adiscope-iOS-Developer/releases/download/2.1.11/TnkRwdSdk2.v.5.73.zip",
+            checksum: "a98ef1ba9af1c5cb06b88cc0968f8f80407d36320707db7d6ff8d7cf6e847947"
         ),
     ]
 )
