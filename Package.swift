@@ -87,8 +87,8 @@ let package = Package(
         ),
         .binaryTarget(
             name: "Adiscope",
-            url: "https://github.com/adiscope/Adiscope-iOS-Developer/releases/download/2.1.22/Adiscope.zip",
-            checksum: "fd69ef634bfe0efde755bc93ae9549d69055f86d216015d56b5354c0922d5356"
+            url: "https://github.com/adiscope/Adiscope-iOS-Developer/releases/download/2.1.23/Adiscope.zip",
+            checksum: "07a5e9b784b2c140ae2c3004661007f5bd5ce565c1efcf49318e44305dabec39"
         ),
         .binaryTarget(
             name: "AdiscopeMediaAdManager",
@@ -352,13 +352,13 @@ let package = Package(
         ),
         .binaryTarget(
             name: "AdiscopeTnkRwdSdk2",
-            url: "https://github.com/adiscope/Adiscope-iOS-Developer/releases/download/2.1.22/AdiscopeTnkRwd2.zip",
-            checksum: "595a4b198aeae45bdc23b22a377fd67876ca2070adb6bc6954de2449d5ef13ce"
+            url: "https://github.com/adiscope/Adiscope-iOS-Developer/releases/download/2.1.23/AdiscopeTnkRwd2.zip",
+            checksum: "110c4bf809b1692d9d6d220154420536a3261da6f7ea88e5d0f156649c1d7479"
         ),
         .binaryTarget(
             name: "TnkRwdSdk2",
-            url: "https://github.com/adiscope/Adiscope-iOS-Developer/releases/download/2.1.22/TnkRwdSdk2.v.5.82.zip",
-            checksum: "2517daf88ec2c2089d6bf074a1ed5efddcb0ee93bbd47a70fb5baff4a539ce52"
+            url: "https://github.com/adiscope/Adiscope-iOS-Developer/releases/download/2.1.23/TnkRwdSdk2.v.5.83.zip",
+            checksum: "89e6e618e4418fa123deb0f73b1c1ac3fd6bcd52cdab39181f5f66a4c1080c09"
         ),
     ]
 )
