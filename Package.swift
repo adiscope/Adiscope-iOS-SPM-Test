@@ -232,8 +232,8 @@ let package = Package(
         ),
         .binaryTarget(
             name: "AdiscopeMediaMaxAdapterMolocoMediationAdapter",
-            url: "https://github.com/adiscope/Adiscope-iOS-Sample/releases/download/5.0.0/AppLovinMediationMolocoAdapter.xcframework.zip",
-            checksum: "fcd3a1119f5a5ce01e00a50e6ea774cf0576280f780a6a1df3d4baa4dbae9ba8"
+            url: "https://github.com/adiscope/Adiscope-iOS-Developer/releases/download/2.1.23/AppLovinMediationMolocoAdapter.xcframework.zip",
+            checksum: "d823d4598934ede9ba1937dd9b53fe108d89ab0ceff6046be5619d7c6da4f7f7"
         ),
         .binaryTarget(
             name: "AdiscopeMediaMaxAdapterOguryMediationAdapter",
@@ -297,8 +297,8 @@ let package = Package(
         ),
         .binaryTarget(
             name: "MolocoSDK",
-            url: "https://github.com/adiscope/Adiscope-iOS-Sample/releases/download/5.0.0/MolocoSDK.xcframework.zip",
-            checksum: "85d690dc4bc4c6bae3bbbae1a0d8b929019aeaf2db60b018bd0c3b26072e9974"
+            url: "https://github.com/adiscope/Adiscope-iOS-Developer/releases/download/2.1.23/MolocoSDK.xcframework.zip",
+            checksum: "89a9459bc468c1e6730e1d0752a21be7f5b9a565caed8770a39e589376350cc7"
         ),
         .binaryTarget(
             name: "OguryAds",
