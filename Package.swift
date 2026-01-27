@@ -163,7 +163,7 @@ let package = Package(
         .binaryTarget(
             name: "AdiscopeMediaMaxAdapterFan",
             url: "https://github.com/adiscope/Adiscope-iOS-Developer/releases/download/2.1.24/AdiscopeMediaMaxAdapterFan.zip",
-            checksum: "a9a93313e267d1f932ea319ed4f35d7a3e14e689457446f44f508f167c5b1d69"
+            checksum: "3a674058e5af06a6d320d467217cc94017dc25ff425d2c259e160c09318c3ebb"
         ),
         .binaryTarget(
             name: "AdiscopeMediaMaxAdapterInMobi",
