@@ -1,21 +1,12 @@
 {
   "pins" : [
     {
-      "identity" : "adsglobalpackage",
-      "kind" : "remoteSourceControl",
-      "location" : "https://github.com/bytedance/AdsGlobalPackage.git",
-      "state" : {
-        "revision" : "f277b2d8f3e93ef910de8b77a3d81168f3819d3a",
-        "version" : "7.4.1-release.1"
-      }
-    },
-    {
       "identity" : "applovin-max-swift-package",
       "kind" : "remoteSourceControl",
       "location" : "https://github.com/AppLovin/AppLovin-MAX-Swift-Package.git",
       "state" : {
-        "revision" : "7d1f730673c437b83fba3eec2dee2dcc6ed46c8a",
-        "version" : "13.4.0"
+        "revision" : "b5acf713209298059bb2f09b22d84d523454bc7b",
+        "version" : "13.5.1"
       }
     },
     {
@@ -23,8 +14,8 @@
       "kind" : "remoteSourceControl",
       "location" : "https://github.com/Mintegral-official/MintegralAdSDK-Swift-Package.git",
       "state" : {
-        "revision" : "b483374ae72193a547f97055132ac9d0a3a5cb7f",
-        "version" : "7.7.9"
+        "revision" : "af6d2c5d136ecf7d9761799e98c91b26bd8ce072",
+        "version" : "8.0.4"
       }
     },
     {
@@ -32,8 +23,8 @@
       "kind" : "remoteSourceControl",
       "location" : "https://github.com/googleads/swift-package-manager-google-mobile-ads.git",
       "state" : {
-        "revision" : "c79144a4a0a5bbc2019f9030af66d6573e348daf",
-        "version" : "12.11.0"
+        "revision" : "1239c23464503053c17d37ee5daa70de3455e9c8",
+        "version" : "12.14.0"
       }
     },
     {
@@ -50,8 +41,8 @@
       "kind" : "remoteSourceControl",
       "location" : "https://github.com/Vungle/VungleAdsSDK-SwiftPackageManager.git",
       "state" : {
-        "revision" : "1c4ced23357391bec3d55e5a8921d4f2dbc2fa8b",
-        "version" : "7.5.2"
+        "revision" : "ee4f0cb9244298a9d5dbadd29c9fd5798d49ee71",
+        "version" : "7.6.3"
       }
     }
   ],
