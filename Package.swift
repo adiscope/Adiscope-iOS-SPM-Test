@@ -89,6 +89,7 @@ let package = Package(
                 .target(name: "StackModules"),
                 .target(name: "StackProductPresentation"),
                 .target(name: "StackRendering"),
+                .target(name: "TnkPubSdk"),
                 .target(name: "UnityAds"),
             ],
             resources: [.copy("PAGAdSDK.bundle")],
@@ -424,6 +425,11 @@ let package = Package(
             name: "StackRendering",
             url: "https://github.com/adiscope/Adiscope-iOS-Developer/releases/download/2.1.24/StackRendering.xcframework.zip",
             checksum: "71fb5a3dc515c6118f67c92ae9cd8d74f3b207467483c4d6657f6c2d4e6e834e"
+        ),
+        .binaryTarget(
+            name: "TnkPubSdk",
+            url: "https://github.com/adiscope/Adiscope-iOS-Developer/releases/download/2.1.24/TnkPubSdk.xcframework.zip",
+            checksum: "d96cccf26eff04f2b3df845124638f3facf7703b298abaac586a4ff636a5040c"
         ),
         .binaryTarget(
             name: "UnityAds",
