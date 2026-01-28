@@ -51,7 +51,6 @@ let package = Package(
                 .target(name: "AdiscopeMediaMaxAdapterBigoMediationAdapter"),
                 .target(name: "AdiscopeMediaMaxAdapterPangleMediationAdapter"),
                 .target(name: "AdiscopeMediaMaxAdapterChartboostMediationAdapter"),
-                .target(name: "AdiscopeMediaMaxAdapterFanMediationAdapter"),
                 .target(name: "AdiscopeMediaMaxAdapterDTMediationAdapter"),
                 .target(name: "AdiscopeMediaMaxAdapterAdManagerMediationAdapter"),
                 .target(name: "AdiscopeMediaMaxAdapterAdMobMediationAdapter"),
@@ -255,11 +254,6 @@ let package = Package(
             name: "AdiscopeMediaMaxAdapterChartboostMediationAdapter",
             url: "https://github.com/adiscope/Adiscope-iOS-Developer/releases/download/2.1.24/AppLovinMediationChartboostAdapter.xcframework.zip",
             checksum: "48687bf6b115740380811a9bf9aa7e0e9fc6049fbc22660fda80813c13491d91"
-        ),
-        .binaryTarget(
-            name: "AdiscopeMediaMaxAdapterFanMediationAdapter",
-            url: "https://github.com/adiscope/Adiscope-iOS-Developer/releases/download/2.1.24/AppLovinMediationFacebookAdapter.xcframework.zip",
-            checksum: "748cef48ba8837f7376ddd9d5de7f844c30cb6533791ba16edbd0666bba851dc"
         ),
         .binaryTarget(
             name: "AdiscopeMediaMaxAdapterDTMediationAdapter",
