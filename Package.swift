@@ -42,6 +42,7 @@ let package = Package(
                 .target(name: "AdiscopeMediaMaxAdapterOgury"),
                 .target(name: "AdiscopeMediaMaxAdapterPangle"),
                 .target(name: "AdiscopeMediaMaxAdapterPubMatic"),
+                .target(name: "AdiscopeMediaMaxAdapterUnityAds"),
                 .target(name: "AdiscopeMediaMaxAdapterVungle"),
                 .target(name: "AdiscopeMediaPangle"),
                 .target(name: "AdiscopeMediaTnkPub"),
