@@ -33,7 +33,7 @@ let package = Package(
                 .target(name: "AdiscopeMediaMaxAdapterBigo"),
                 .target(name: "AdiscopeMediaMaxAdapterChartBoost"),
                 .target(name: "AdiscopeMediaMaxAdapterDTExchange"),
-//                .target(name: "AdiscopeMediaMaxAdapterFan"),
+                .target(name: "AdiscopeMediaMaxAdapterFan"),
                 .target(name: "AdiscopeMediaMaxAdapterInMobi"),
                 .target(name: "AdiscopeMediaMaxAdapterIronSource"),
                 .target(name: "AdiscopeMediaMaxAdapterLine"),
@@ -161,11 +161,11 @@ let package = Package(
             url: "https://github.com/adiscope/Adiscope-iOS-Developer/releases/download/2.1.24/AdiscopeMediaMaxAdapterDTExchange.zip",
             checksum: "b0e4bf4f5cfc3d5c732c2cb366162cb89e0bc89c2b05a7d6dfb0f99f164baa94"
         ),
-//        .binaryTarget(
-//            name: "AdiscopeMediaMaxAdapterFan",
-//            url: "https://github.com/adiscope/Adiscope-iOS-Developer/releases/download/2.1.24/AdiscopeMediaMaxAdapterFan.zip",
-//            checksum: "3a674058e5af06a6d320d467217cc94017dc25ff425d2c259e160c09318c3ebb"
-//        ),
+        .binaryTarget(
+            name: "AdiscopeMediaMaxAdapterFan",
+            url: "https://github.com/adiscope/Adiscope-iOS-Developer/releases/download/2.1.24/AdiscopeMediaMaxAdapterFan.zip",
+            checksum: "5741f72e3beeceba8d8daa2919db56dd324130372ff05a04b50c89a06be0a6c9"
+        ),
         .binaryTarget(
             name: "AdiscopeMediaMaxAdapterInMobi",
             url: "https://github.com/adiscope/Adiscope-iOS-Developer/releases/download/2.1.24/AdiscopeMediaMaxAdapterInMobi.zip",
